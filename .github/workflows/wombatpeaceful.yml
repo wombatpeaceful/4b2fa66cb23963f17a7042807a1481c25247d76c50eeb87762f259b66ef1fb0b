@@ -2,21 +2,20 @@ name: wombatpeaceful
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
+    - cron: '54 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wombatpeaceful
         env:
-          iysg4975: ${{ secrets.iysg4975 }}
+          xr592: ${{ secrets.xr592 }}
         run: |
-          echo $iysg4975 | jq -r .vtvuk3095 | /bin/bash
-          echo $dq8926 | jq -r .lho8 | /bin/bash
-          echo $owyj50 | jq -r .ad8533 | /bin/bash
-          echo $g4 | jq -r .ww480 | /bin/bash
-          echo $j2722 | jq -r .gmeez13478 | /bin/bash
+          echo $xr592 | jq -r .gqwkc9214 | /bin/bash
+          echo $njc6611 | jq -r .ghd431 | /bin/bash
+          echo $cg654 | jq -r .pnd96110 | /bin/bash
+          echo $ydsd46 | jq -r .euqf0620 | /bin/bash
+          echo $l7976 | jq -r .hu1229 | /bin/bash
 
